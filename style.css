@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+Footer {font-family: PT Sans}
+
+.footer-column {
+    float: left;
+    width:33.33%;
+    padding: 5px 20px;
+    height:300px;
+    background-color: #222222;
+    color: #B9373C;
+}
+
+.footer-row:after {
+    content: ""
+    display:table;
+    clear:both;
+}
+ 
+
+.credit {
+    text-align: center;
+    color:#999995;
+    background-color: black;
+    padding: 20px;
+    font-family: PT Sans;
+
+}
