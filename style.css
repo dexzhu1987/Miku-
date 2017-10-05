@@ -77,7 +77,6 @@ body{
 
 h1{
     text-align: center;
-    background-color: beige;
 }
 
 p{
@@ -105,10 +104,9 @@ p{
     height:500px;
     margin: 10px 70px 10px 70px;
     padding: 20px;
-    border-left:10px solid gray;
-    border-right:10px solid gray;
+    border-bottom: 5px solid lightgray;
     border-radius: 5px;
-    background-color:beige;
+    border-bottom-style: dashed;
 }
 
 .row-floating-box: after {
