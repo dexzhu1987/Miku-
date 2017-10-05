@@ -66,6 +66,16 @@ body{
     
 }
 
+<<<<<<< HEAD
+=======
+.content{
+    position: relative;
+    margin-right: 20px;
+    bottom: 200px;
+    width: 100%;
+    height: 600px;
+}
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
 h1{
     text-align: center;
     background-color: beige;
@@ -100,12 +110,20 @@ p{
     border-radius: 5px;
     background-color:beige;
 }
+
+.row-floating-box: after {
+    content: ""
+    display:table;
+    clear:both;  
+}
+
 #aboutimg{
     width:400px;
     height: 300px;
     margin: 2%;
 }
 
+<<<<<<< HEAD
 div.gallery {
     margin: 20px;
     padding-left: 20px;
@@ -147,6 +165,13 @@ table{
     text-align: center;
 }
 
+=======
+
+* {box-sizing: border-box;}
+
+footer {font-family: PT Sans;
+}
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
 
 .footer-column {
     float: left;
@@ -154,10 +179,16 @@ table{
     padding: 5px 20px;
     height: 300px;
     max-height:auto;
+<<<<<<< HEAD
     background-color: #222222 ;
     color: #B9373C ;
     font-size: .8em;
     text-align: center;
+=======
+    background-color: #222222;
+    color: #B9373C;
+    font-size: .8em
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
 }
 
 .footer-row: after {
@@ -166,22 +197,33 @@ table{
     clear:both;
 }
 
+<<<<<<< HEAD
 .footer-text {
     font-size:.8em;
     color: #999995 ;
 }
 
 
+=======
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
 .credit {
     font-size: .8em;
     position: relative;
     z-index: -1;
     bottom: 0;
     text-align: center;
+<<<<<<< HEAD
     color:#999995 ;
+=======
+    color:#999995;
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
     background-color: black;
     padding: 20px;
     font-family: PT Sans;
 
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 5ec473f686dba869d28555f8fea6a8d7927a5847
