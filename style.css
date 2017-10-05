@@ -1,33 +1,35 @@
-body{margin: 0px;
+body{
+    margin: 0px auto;
     padding: 0px;
+    max-width: 1500px;
    
 }
 .nav {           
-        height:100px;
-        float: right;
-        font-family: 'verdana';
-        font-size: 1em;                
+    height:100px;
+    float: right;
+    font-family: 'verdana';
+    font-size: 1em;                
             }
             
 .ul {                
-        list-style-type: none;
-        padding: 20px 70px 0px 20px;
-        text-align: center;
-        margin:0px;
-        float: right
+    list-style-type: none;
+    padding: 20px 70px 0px 20px;
+    text-align: center;
+    margin:0px;
+    float: right
         
             }
             
 #li {
-        display: inline-block;
-        margin-top: 20px;
+    display: inline-block;
+    margin-top: 20px;
             }
             
 #a {
-        display: block;
-        padding: 10px 8px;
-        text-decoration: none;
-        color: #FFF;
+    display: block;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: #FFF;
             }
             
 #a:hover {
@@ -45,7 +47,7 @@ body{margin: 0px;
     height:90px;
     
 }
-#mainimg{
+.mainimg{
     position:relative;
     bottom: 100px;
     min-width: 1000px;
@@ -64,19 +66,33 @@ body{margin: 0px;
     
 }
 
-.content{
-    position: relative;
-    margin-right: 20px;
-    bottom: 200px;
-    width: 100%;
-    height: 600px;
+.section{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#iframe{
+    text-align: center;
+}
+}
+iframe:focus { 
+    outline: none;
 }
 
+iframe[seamless] { 
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+#h2{
+    text-align:center;
+}
 
 p{
     margin: 20px 50px 10px 50px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5%;
     
     
@@ -88,16 +104,9 @@ p{
     margin: 50px;
     border: 5px solid black;
 }
-.floating-box-about{
-    clear:left;
-    width:85%;
-    height:400px;
-    margin: 10px 70px 10px 70px;
-    padding: 20px;
-    border-left:10px solid gray;
-    border-right:10px solid gray;
-    border-radius: 5px;
-    background-color:beige;
+.after-floating{
+    clear: left;
+    margin: 20px;
 }
 
 .row-floating-box: after {
@@ -107,13 +116,14 @@ p{
 }
 
 #aboutimg{
-    width:450px;
-    height: 350px;
+    width:380px;
+    height: 260px;
     margin: 2%;
 }
 
 /* Menu */
 
+<<<<<<< HEAD
 hr {
     border:none;
     border: 1px solid #d7d7d7;
@@ -128,6 +138,46 @@ hr {
     top: -18px;
     background:white;
     padding:0 5px;
+=======
+div.gallery {
+    margin: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 320px;
+    height: 210px;
+}
+
+
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.gallery img:hover {
+   box-shadow: 0px 0px 100px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+* {box-sizing: border-box;}
+
+footer {
+    font-family: PT Sans;
+    text-align: left;
+
+}
+table{
+    margin-left: 120px;    
+    text-align: center;
+>>>>>>> refs/remotes/origin/master
 }
 
 .Menu-head { 
@@ -201,13 +251,17 @@ table.menu {
     color: #B9373C; 
 }
 
+<<<<<<< HEAD
 /* Menu ends*/
 
 
+=======
+>>>>>>> refs/remotes/origin/master
 * {box-sizing: border-box;}
 
 footer {font-family: PT Sans;
 }
+
 
 .footer-column {
     float: left;
@@ -215,6 +269,12 @@ footer {font-family: PT Sans;
     padding: 5px 20px;
     height: 300px;
     max-height:auto;
+
+    background-color: #222222 ;
+    color: #B9373C ;
+    font-size: .8em;
+    text-align: center;
+
     background-color: #222222;
     color: #B9373C;
     font-size: .8em
@@ -224,7 +284,12 @@ footer {font-family: PT Sans;
     content: ""
     display:table;
     clear:both;
+    }
+.footer-text{
+    font-size:.8em;
+    color: #999995 ;
 }
+
 
 .credit {
     font-size: .8em;
@@ -232,9 +297,12 @@ footer {font-family: PT Sans;
     z-index: -1;
     bottom: 0;
     text-align: center;
-    color:#999995;
+    color:#999995 ;
     background-color: black;
     padding: 20px;
     font-family: PT Sans;
 
 }
+
+
+
