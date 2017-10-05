@@ -112,7 +112,23 @@ p{
     margin: 2%;
 }
 
+/* Menu */
 
+hr {
+    border:none;
+    border: 1px solid #d7d7d7;
+}
+
+.hr { 
+    text-align: center;
+}
+
+.hr img {
+    position: relative;
+    top: -18px;
+    background:white;
+    padding:0 5px;
+}
 
 .Menu-head { 
     text-align: center;
@@ -129,43 +145,63 @@ p{
     
 }
 
-.Menu-table table,
-.Menu-table th, 
-.Menu-table td{ 
-    font-size:1.1em;
-    font-family: PT Sans;
-    border: 1px solid black;
-    border-collapse: collapse;  
+.Menu-paragraph { text-align: center;
+    font-size: .8em;
+    color:#999995;
+    margin:20px;
+    width:80%;
+    max-width: 80%;
+    position: relative;
+    left:10%;
+    display: block;
 }
 
-.Menu-table th, 
-.Menu-table td {
+table.menu {
+    margin:auto;
+    width: 90%;
+    font-size: 0.90em;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;         
+
+}
+
+.menu th, td {
     padding: 5px 15px;
+    font-family: 'PT Sans';
+    font-size: 0.80em;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;     
 }
 
-.Menu-table th {
-    color: white;
-    background-color: green;
+.menu th {
+    font-size:1.3em;
+    width:30%;
+    text-align: left;
 }
 
-.Menu-table tr:nth-child(even) {
+
+.menu tr:nth-child(even) {
     background-color: #eee;
 }
 
-.Menu-table tr:nth-child(odd) {
+.menu tr:nth-child(odd) {
     background-color: #fff;
 }
 
-.Menu-table tr:hover {
+
+.menu tr: hover {
     background-color: grey;
     color: white;
 }
 
-.price {
+.age {
     text-align: right;
+    width:3%;
+    font-weight: 900;
+    color: #B9373C; 
 }
 
-
+/* Menu ends*/
 
 
 * {box-sizing: border-box;}
