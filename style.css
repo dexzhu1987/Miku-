@@ -163,6 +163,7 @@ table{
     margin-left: 120px;
     
     text-align: center;
+}
 
 .Menu-head { 
     text-align: center;
@@ -213,6 +214,7 @@ table{
 
 .price {
     text-align: right;
+}
 
 * {box-sizing: border-box;}
 
@@ -235,15 +237,14 @@ footer {font-family: PT Sans;
     background-color: #222222;
     color: #B9373C;
     font-size: .8em
+}
 
 .footer-row: after {
     content: ""
     display:table;
     clear:both;
-}
-
-
-.footer-text {
+    }
+.footer-text{
     font-size:.8em;
     color: #999995 ;
 }
