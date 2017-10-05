@@ -74,10 +74,12 @@ body{
     height: 600px;
 }
 
+
 h1{
     text-align: center;
     background-color: beige;
 }
+
 p{
     margin: 20px 50px 10px 50px;
     text-align: left;
@@ -161,9 +163,56 @@ table{
     margin-left: 120px;
     
     text-align: center;
+
+.Menu-head { 
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    font-size: 1.5em;
+    font-family: PT Serif;    
 }
 
+.Menu-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: PT Serif;
+    
+}
 
+.Menu-table table,
+.Menu-table th, 
+.Menu-table td{ 
+    font-size:1.1em;
+    font-family: PT Sans;
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+
+.Menu-table th, 
+.Menu-table td {
+    padding: 5px 15px;
+}
+
+.Menu-table th {
+    color: white;
+    background-color: green;
+}
+
+.Menu-table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.Menu-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.Menu-table tr:hover {
+    background-color: grey;
+    color: white;
+}
+
+.price {
+    text-align: right;
 
 * {box-sizing: border-box;}
 
