@@ -1,5 +1,8 @@
-body{margin: 0px;
+body{margin: 0px auto;
     padding: 0px;
+	max-width: 1500px;
+	float: none;
+	
    
 }
 .nav {           
@@ -93,16 +96,18 @@ p{
     width:350px;
     height:300px;
     margin: 50px;
-    border: 5px solid black;
+    border: 1px solid black;
+	im
 }
 .floating-box-about{
     clear:left;
-    width:85%;
+    width:85;
     height:400px;
     margin: 10px 70px 10px 70px;
     padding: 20px;
     border-left:10px solid gray;
     border-right:10px solid gray;
+	
     border-radius: 5px;
     background-color:beige;
 }
