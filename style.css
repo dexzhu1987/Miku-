@@ -201,8 +201,7 @@ hr {
     top: -18px;
     background:white;
     padding:0 5px;
-<<<<<<< HEAD
-=======
+
 }
 
 div.gallery {
@@ -243,7 +242,7 @@ footer {
 table{
     margin-left: 120px;    
     text-align: center;
->>>>>>> c0697b362a35fe5a363b1dfb5ba7477b69cbb87d
+
 }
 
 .Menu-head { 
@@ -323,7 +322,7 @@ table.menu {
 /* Menu ends*/
 
 
-<<<<<<< HEAD
+
 /* Location */
 
 .location h2 {
@@ -362,8 +361,7 @@ div.gallery img:hover {
     transition: all 200ms ease-in;
     transform: scale(1.2);
 }
-=======
->>>>>>> c0697b362a35fe5a363b1dfb5ba7477b69cbb87d
+
 
 * {box-sizing: border-box;}
 
