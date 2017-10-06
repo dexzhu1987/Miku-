@@ -70,7 +70,7 @@ body{
     
     position: fixed;
     top: 400px;
-    left:600px;
+    right: 0px;
     opacity: 0.9;
     
 }   
@@ -102,26 +102,26 @@ body{
 
 /* Sprite images */
 #facebook {
-    height: 84px;
-    width: 84px;    
+    height: 70px;
+    width: 70px;    
     background: url(image/mini-social-icons.png) 0px 168px;    
 }
 
 #google {
-    height: 84px;
-    width: 84px;
+    height: 70px;
+    width: 70px;
     background: url(image/mini-social-icons.png) -252px 175px; /* 184 = 168 + 8 (padding) + 8 (padding) */    
 }
 
 #linkedin {
-    height: 84px;
-    width: 84px;
+    height: 70px;
+    width: 70px;
     background: url(image/mini-social-icons.png) -336px 174px; /* 184 = 168 + 8 (padding) + 8 (padding) */    
 }
 
 #twitter {
-    height: 84px;
-    width: 84px;
+    height: 70px;
+    width: 70px;
     background: url(image/mini-social-icons.png) -672px 174px; /* 184 = 168 + 8 (padding) + 8 (padding) */    
 }
 /* end social media slidebar */
@@ -153,7 +153,7 @@ h1{
     text-align:center;
 }
 
-p{
+#about-p{
     margin: 20px 50px 10px 50px;
     text-align: left;
     font-size: 18px;
@@ -231,6 +231,12 @@ div.gallery img:hover {
     transform: scale(1.2);
 }
 
+div.desc {
+    margin:0px;
+    padding: 25px;
+    text-align: center;
+}
+
 * {box-sizing: border-box;}
 
 footer {
@@ -271,7 +277,7 @@ table{
 
 table.menu {
     margin:auto;
-    width: 90%;
+    width: 85%;
     font-size: 0.90em;
     border-bottom: 1px solid black;
     border-collapse: collapse;         
@@ -320,7 +326,9 @@ table.menu {
 
 * {box-sizing: border-box;}
 
-footer {font-family: PT Sans;
+footer {
+    font-family: PT Sans;
+    margin-top: 200px;
 }
 
 
@@ -342,7 +350,7 @@ footer {font-family: PT Sans;
 }
 
 .footer-row: after {
-    content: ""
+    content: "";
     display:table;
     clear:both;
     }
