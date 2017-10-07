@@ -29,7 +29,7 @@ body{
     color: #FFF;
             }
             
-#a:hover {
+.a:hover {
         border-bottom: solid 2px white;
         padding-bottom: 2px;
         color:red; 
@@ -315,11 +315,6 @@ table.menu {
     background-color: #fff;
 }
 
-
-.menu tr: hover {
-    background-color: grey;
-    color: white;
-}
 
 .age {
     text-align: right;
