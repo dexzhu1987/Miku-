@@ -535,3 +535,16 @@ form{
     font-family: PT Sans;
 
 }
+
+/* -------footer extra*/
+
+.footer-text 
+{
+    font-size: 1em;
+    color:#999995;
+}
+
+.footer-table-text
+{ 
+    color:white;
+}
